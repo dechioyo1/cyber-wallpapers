@@ -11,4 +11,4 @@ set(BACKGROUNDS
 	unsplash-6.jpg
 )
 
-install(FILES ${BACKGROUNDS} RUNTIME DESTINATION /usr/share/backgrounds/cyber)
+install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber)
