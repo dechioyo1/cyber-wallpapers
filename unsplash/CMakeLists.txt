@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(unsplash-backgrounds)
+project(unsplash-wallpapers)
 
 set(BACKGROUNDS
 	unsplash-0.jpg
@@ -16,4 +16,4 @@ set(BACKGROUNDS
 	unsplash-11.jpg
 )
 
-install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber)
+install(FILES ${BACKGROUNDS} DESTINATION /usr/share/wallpapers/cyber)
