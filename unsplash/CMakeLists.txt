@@ -14,6 +14,7 @@ set(BACKGROUNDS
 	unsplash-9.jpg
 	unsplash-10.jpg
 	unsplash-11.jpg
+	unsplash-12.jpg
 )
 
 install(FILES ${BACKGROUNDS} DESTINATION /usr/share/wallpapers/cyber)
