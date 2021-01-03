@@ -17,4 +17,4 @@ set(BACKGROUNDS
 	unsplash-12.jpg
 )
 
-install(FILES ${BACKGROUNDS} DESTINATION /usr/share/wallpapers/cyber)
+install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber)
