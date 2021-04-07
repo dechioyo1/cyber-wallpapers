@@ -12,5 +12,5 @@ set(BACKGROUNDS
 	unsplash-7.jpg
 )
 
-install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber)
-install(FILE ATTRIBUTION DESTINATION /usr/share/licenses/cyber-wallpapers/ATTRIBUTION.unsplash)
+install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber/)
+install(FILES ATTRIBUTION DESTINATION /usr/share/licenses/cyber-wallpapers/unsplash/)
