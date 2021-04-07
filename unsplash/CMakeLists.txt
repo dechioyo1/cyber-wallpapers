@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.19)
 project(unsplash-wallpapers)
 
 set(BACKGROUNDS
@@ -10,11 +10,7 @@ set(BACKGROUNDS
 	unsplash-5.jpg
 	unsplash-6.jpg
 	unsplash-7.jpg
-	unsplash-8.jpg
-	unsplash-9.jpg
-	unsplash-10.jpg
-	unsplash-11.jpg
-	unsplash-12.jpg
 )
 
 install(FILES ${BACKGROUNDS} DESTINATION /usr/share/backgrounds/cyber)
+install(FILE ATTRIBUTION DESTINATION /usr/share/licenses/cyber-wallpapers/ATTRIBUTION.unsplash)
